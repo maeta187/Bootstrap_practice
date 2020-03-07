@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+p {
+  margin: 0;
+}
+
+.wrapbg {
+  background: #f1edf6;
+}
+
+.inner {
+  width: 600px;
+}
+
+.footer__content {
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+.inner {
+  width: 90%;
+}
+}

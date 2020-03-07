@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+.jumbotron {
+  background: #fff;
+}
+
+.album {
+  background: #eeeeee;
+}
+
+.lead {
+  margin-bottom: 0;
+}
+
+.footer {
+  padding: 50px 0;
+}

@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+.nav-bg {
+  background: #e3f2fd;
+}
+
+.line-margin {
+  margin: 80px 0;
+}
+
+.order-1 {
+  order: 1;
+  text-align: center;
+}
+
+.order-2 {
+  order: 2;
+}
+
+.order-rev-1 {
+  order: 1;
+}
+
+.order-rev-2 {
+  order: 2;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+
+.line-margin {
+  margin: 20px 0 40px 0;
+}
+
+  .order-rev-1 {
+    order: 2;
+  }
+
+  .order-rev-2 {
+    order: 1;
+  }
+}
+
+.v-icon {
+  font-size: 40px;
+}

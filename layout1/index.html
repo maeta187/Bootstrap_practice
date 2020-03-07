@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://use.fontawesome.com/releases/v5.10.1/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Layout1</title>
+</head>
+
+<body>
+  <div class="wrapbg">
+    <header>
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center">Bootstrap Form</h1>
+        </div>
+      </div>
+    </header>
+    <main class="inner mt-4 mx-auto p-5 bg-light shadow">
+      <form action="" class="">
+        <div class="row">
+          <div class="col-6">
+            <label for="lastName">名字</label>
+            <input type="text" class="form-control" id="lastName" placeholder="名字" value="" required="aa">
+          </div>
+          <div class="col-6">
+            <label for="firstName">名前</label>
+            <input type="text" class="form-control" id="firstName" placeholder="名前" value="" required="aa">
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-12">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="gender" id="woman" value="woman">
+              <label class="form-check-label" for="woman">女性</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="gender" id="man" value="man">
+              <label class="form-check-label" for="man">男性</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="gender" id="other" value="other">
+              <label class="form-check-label" for="other">その他</label>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-12">
+            <label for="accountName">アカウントネーム</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <div class="input-group-text">@</div>
+              </div>
+              <input type="text" class="form-control" id="accountName" placeholder="アカウントネーム" required>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-12">
+            <label for="email">メールアドレス</label>
+            <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-12">
+            <label for="tel">電話番号</label>
+            <input type="tel" class="form-control" id="tel" placeholder="09012345678" required>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-12">
+            <label for="Password">パスワード</label>
+            <input type="password" class="form-control" id="Password" placeholder="パスワード" required>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-12">
+            <label for="secondPassword">パスワード確認用</label>
+            <input type="password" class="form-control" placeholder="パスワード" id="secondPassword" required>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-12">
+            <p>プログラミング言語</p>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="programming" id="ruby" value="ruby">
+              <label class="form-check-label" for="ruby">Ruby</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="programming" id="php" value="php">
+              <label class="form-check-label" for="php">PHP</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="programming" id="javascript" value="javascript">
+              <label class="form-check-label" for="javascript">JavaScript</label>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-6 mx-auto">
+            <button class="btn btn-primary btn-lg btn-block" type="submit">送信</button>
+          </div>
+        </div>
+      </form>
+    </main>
+    <footer>
+      <p class="py-4 text-center footer__content">© 2017-2020 Company Name</p>
+    </footer>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
